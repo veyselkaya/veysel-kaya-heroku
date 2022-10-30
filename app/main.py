@@ -1,7 +1,7 @@
 from flask import Flask
 
-app = Flask(__name__)
+app= Flask(__name__)
 
-@app.route("/")
-def hello_world():
-    return "<p>Veysel Kaya Flask Web Page</p>"
+@app.route('/')
+def index():
+  return "<h1>Yazılım öğrenseydin...</h1>"
